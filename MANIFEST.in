@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ifrs15 *.css
+recursive-include ifrs15 *.csv
+recursive-include ifrs15 *.html
+recursive-include ifrs15 *.ico
+recursive-include ifrs15 *.js
+recursive-include ifrs15 *.json
+recursive-include ifrs15 *.md
+recursive-include ifrs15 *.png
+recursive-include ifrs15 *.py
+recursive-include ifrs15 *.svg
+recursive-include ifrs15 *.txt
+recursive-exclude ifrs15 *.pyc
